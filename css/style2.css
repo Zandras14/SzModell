@@ -7,10 +7,15 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+body{   
+    background-color: #eab676;
+}
 .container{ 
     max-width: 900px;
     margin: 0 auto;
-}.header{
+    background: white;
+}
+.header{
     background: url('../images/logo.jpg');
     height: 200px; 
 }
@@ -20,9 +25,22 @@ h1{
     text-transform: uppercase;
     text-indent: 200px;
 }
+h2{
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: gray;
+    padding: 0 10px ;
+}
 ul{
     list-style: none;
-}li{
+}
+ul::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+li{
     width: 12.5%;
     float:left;
     border: 1px solid white;
@@ -46,4 +64,23 @@ a{
 a:hover{
     color: white;
     text-decoration: underline;
+}
+.news{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding: 0 10px;
+}
+content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.kep1{
+    float: left;
+    margin: 5px 5px 5px 0;
+}
+.kep2{
+    float: right;
+    margin: 0 0 0 5px ;
 }
