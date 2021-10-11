@@ -20,3 +20,30 @@ h1{
     text-transform: uppercase;
     text-indent: 200px;
 }
+ul{
+    list-style: none;
+}li{
+    width: 12.5%;
+    float:left;
+    border: 1px solid white;
+    text-align: center;
+}
+li:first-child{
+    border-left: none;
+}
+li:last-child{
+    border-right: none;
+}
+a{
+    width: 100%;
+    background-color: orange;
+    display: inline-block;
+    padding: 10px;
+    color:  #ddd;
+    text-decoration: none;
+    font-size: .8rem;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
