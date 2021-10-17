@@ -8,7 +8,7 @@ html{
     font-size: 18px;
 }
 body{   
-    background-color: #eab676;
+    background-color: #aaaa88;
 }
 .container{ 
     max-width: 900px;
@@ -29,7 +29,7 @@ h2{
     font-size: 1.5rem;
     color: white;
     text-transform: uppercase;
-    background-color: gray;
+    background-color: #aaaa88;
     padding: 0 10px ;
 }
 ul{
@@ -66,10 +66,14 @@ a:hover{
     text-decoration: underline;
 }
 .news{
+    
     width: 50%;
     float: left;
     text-align: justify;
     padding: 0 10px;
+}
+.content{
+    size: 900px 750px;
 }
 content::after {
     content: "";
@@ -83,4 +87,10 @@ content::after {
 .kep2{
     float: right;
     margin: 0 0 0 5px ;
+}
+.footer{
+    font-size: .5rem;
+    color: orange;
+    background-color: white;
+    text-indent: 380px;
 }
